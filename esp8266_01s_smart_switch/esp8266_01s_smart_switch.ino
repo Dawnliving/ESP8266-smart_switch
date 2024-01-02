@@ -2,12 +2,12 @@
 #include <PubSubClient.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "HUAWEI-A1C4JU";
-const char* password = "18583369826zwy";
-const char* mqttServer = "192.168.3.66";
+const char* ssid = "Your wifi ssid";
+const char* password = "wifi password";
+const char* mqttServer = "MQTT server ip";
 const int mqttPort = 1883;
-const char* mqttUser = "homeassistant";
-const char* mqttPassword = "root";
+const char* mqttUser = "MQTT server username";
+const char* mqttPassword = "MQTT server password";
 const char* controlTopic = "smart-switch/control";
 const char* statusTopic = "smart-switch/status";
 
